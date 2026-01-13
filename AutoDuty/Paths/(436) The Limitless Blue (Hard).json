@@ -11,6 +11,7 @@
       "Arguments": [
         "false"
       ],
+      "Conditions": [],
       "Note": ""
     },
     {
@@ -22,6 +23,21 @@
         "Z": -5.53312
       },
       "Arguments": [],
+      "Conditions": [],
+      "Note": ""
+    },
+    {
+      "Tag": "None",
+      "Name": "Wait",
+      "Position": {
+        "X": -2.7915688,
+        "Y": 0.031118631,
+        "Z": -4.760628
+      },
+      "Arguments": [
+        "5000"
+      ],
+      "Conditions": [],
       "Note": ""
     },
     {
@@ -35,6 +51,7 @@
       "Arguments": [
         "on"
       ],
+      "Conditions": [],
       "Note": ""
     },
     {
@@ -48,6 +65,7 @@
       "Arguments": [
         "25000"
       ],
+      "Conditions": [],
       "Note": "allow time for melees to kill stuff before stopping AI"
     },
     {
@@ -61,6 +79,7 @@
       "Arguments": [
         "off"
       ],
+      "Conditions": [],
       "Note": ""
     },
     {
@@ -74,6 +93,7 @@
       "Arguments": [
         "1000"
       ],
+      "Conditions": [],
       "Note": ""
     },
     {
@@ -88,6 +108,7 @@
         "ObjectData;2005545;IsTargetable;false",
         "ModifyIndex;-1"
       ],
+      "Conditions": [],
       "Note": ""
     },
     {
@@ -101,6 +122,7 @@
       "Arguments": [
         "2005545"
       ],
+      "Conditions": [],
       "Note": "Dragonkiller"
     },
     {
@@ -114,6 +136,7 @@
       "Arguments": [
         "off"
       ],
+      "Conditions": [],
       "Note": ""
     },
     {
@@ -127,6 +150,7 @@
       "Arguments": [
         "2005544"
       ],
+      "Conditions": [],
       "Note": "Dragonkiller"
     },
     {
@@ -140,6 +164,7 @@
       "Arguments": [
         "off"
       ],
+      "Conditions": [],
       "Note": ""
     },
     {
@@ -153,6 +178,7 @@
       "Arguments": [
         "500"
       ],
+      "Conditions": [],
       "Note": ""
     },
     {
@@ -167,32 +193,21 @@
         "ObjectData;4423;IsTargetable;false",
         "ModifyIndex;-1"
       ],
+      "Conditions": [],
       "Note": "Chitin Carapace (4421)"
-    },
-    {
-      "Tag": "Unsynced",
-      "Name": "BossMod",
-      "Position": {
-        "X": 0.0,
-        "Y": 0.0,
-        "Z": 0.0
-      },
-      "Arguments": [
-        "on"
-      ],
-      "Note": ""
     },
     {
       "Tag": "Unsynced",
       "Name": "WaitFor",
       "Position": {
-        "X": 3.5999997,
+        "X": 7.1999965,
         "Y": -0.25,
         "Z": -4.9
       },
       "Arguments": [
         "ConditionFlag;48;true"
       ],
+      "Conditions": [],
       "Note": "Wait for jumping from the shell"
     },
     {
@@ -206,7 +221,22 @@
       "Arguments": [
         "IsReady"
       ],
+      "Conditions": [],
       "Note": "and land before moving..."
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "BossMod",
+      "Position": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Arguments": [
+        "on"
+      ],
+      "Conditions": [],
+      "Note": ""
     },
     {
       "Tag": "Unsynced",
@@ -217,8 +247,9 @@
         "Z": 0.0
       },
       "Arguments": [
-        "250"
+        "1000"
       ],
+      "Conditions": [],
       "Note": ""
     },
     {
@@ -233,6 +264,7 @@
         "ObjectData;3834;IsTargetable;true",
         "ModifyIndex;+2"
       ],
+      "Conditions": [],
       "Note": "Vapor Bubble"
     },
     {
@@ -246,6 +278,7 @@
       "Arguments": [
         "-2"
       ],
+      "Conditions": [],
       "Note": "allow ai for melees untill the bubbles show up"
     },
     {
@@ -259,6 +292,7 @@
       "Arguments": [
         "5000"
       ],
+      "Conditions": [],
       "Note": ""
     },
     {
@@ -272,6 +306,7 @@
       "Arguments": [
         "off"
       ],
+      "Conditions": [],
       "Note": "back to the scripted events"
     },
     {
@@ -285,6 +320,7 @@
       "Arguments": [
         "100"
       ],
+      "Conditions": [],
       "Note": "Wait away from the edge to maybe survive the random KB"
     },
     {
@@ -299,6 +335,7 @@
         "ObjectData;2005545;IsTargetable;false",
         "ModifyIndex;-1"
       ],
+      "Conditions": [],
       "Note": ""
     },
     {
@@ -312,6 +349,7 @@
       "Arguments": [
         "/ac Sprint"
       ],
+      "Conditions": [],
       "Note": ""
     },
     {
@@ -325,6 +363,7 @@
       "Arguments": [
         "2005545"
       ],
+      "Conditions": [],
       "Note": "Dragonkiller"
     },
     {
@@ -338,6 +377,7 @@
       "Arguments": [
         "off"
       ],
+      "Conditions": [],
       "Note": ""
     },
     {
@@ -351,6 +391,7 @@
       "Arguments": [
         "2005544"
       ],
+      "Conditions": [],
       "Note": "Dragonkiller"
     },
     {
@@ -364,6 +405,7 @@
       "Arguments": [
         "off"
       ],
+      "Conditions": [],
       "Note": ""
     },
     {
@@ -377,6 +419,7 @@
       "Arguments": [
         "500"
       ],
+      "Conditions": [],
       "Note": ""
     },
     {
@@ -391,19 +434,49 @@
         "ObjectData;4424;IsTargetable;false",
         "ModifyIndex;-1"
       ],
+      "Conditions": [],
       "Note": "Corona (4422)"
     },
     {
       "Tag": "Unsynced",
       "Name": "StopForCombat",
       "Position": {
-        "X": 3.5999997,
+        "X": 6.9999967,
         "Y": -0.25,
         "Z": -4.9
       },
       "Arguments": [
         "true"
       ],
+      "Conditions": [],
+      "Note": ""
+    },
+    {
+      "Tag": "None",
+      "Name": "MoveTo",
+      "Position": {
+        "X": 5.5,
+        "Y": -0.25,
+        "Z": -4.9
+      },
+      "Arguments": [
+        ""
+      ],
+      "Conditions": [],
+      "Note": ""
+    },
+    {
+      "Tag": "None",
+      "Name": "MoveTo",
+      "Position": {
+        "X": 7.0,
+        "Y": -0.25,
+        "Z": -4.9
+      },
+      "Arguments": [
+        ""
+      ],
+      "Conditions": [],
       "Note": ""
     },
     {
@@ -417,33 +490,13 @@
       "Arguments": [
         ""
       ],
+      "Conditions": [],
       "Note": ""
     }
   ],
   "Meta": {
-    "CreatedAt": 106,
-    "Changelog": [
-      {
-        "Version": 161,
-        "Change": "Converted to new JSON Structure"
-      },
-      {
-        "Version": 163,
-        "Change": "Converted to newer JSON Structure"
-      },
-      {
-        "Version": 164,
-        "Change": "Converted to JSON Structure with Tags"
-      },
-      {
-        "Version": 189,
-        "Change": "Adjusted tags to string values"
-      },
-      {
-        "Version": 252,
-        "Change": "Copy from Extreme and adjust IDs"
-      }
-    ],
+    "CreatedAt": 285,
+    "Changelog": [],
     "Notes": []
   }
 }
